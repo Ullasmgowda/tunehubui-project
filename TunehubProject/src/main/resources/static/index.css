@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding:55px;
+    text-align: center;
+    background-image: url('index.jpg');
+}
+h1{
+	padding:0;
+	text-align: center;
+}
+
+form {
+    margin-top: 50px;
+}
+
+input[type="submit"] {
+    background-color: #c0c0c0;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff8080;
+}
+
+form + form {
+    margin-top: 20px;
+}
